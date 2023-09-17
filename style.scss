@@ -6,6 +6,14 @@ html, body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
+}
+
+.wrapper-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 
 .btn-yellow {
@@ -30,6 +38,58 @@ html, body {
     }
 }
 
+.btn-black {
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    i {
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #d3a6a6;
+        border: 1px solid #d3a6a6;
+        color: #F0EFE9;
+    }
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    a {
+        color: #191919;
+        font-size: 1.3rem;
+        margin-left: 10px;
+
+        &:hover {
+            color: #d3a6a6;
+        }
+    }
+}
+
+.social-media-white {
+    a {
+        color:#F0EFE9;
+        font-size: 1.3rem;
+        margin-left: 10px;
+
+        &:hover {
+            color: #d3a6a6;
+        }
+    }
+}
+
 .btn-transparent {
     background-color: transparent;
     border: 1px solid #191919;
@@ -49,6 +109,29 @@ html, body {
         background-color: #d3a6a6;
         border: 1px solid #d3a6a6;
         color: #F0EFE9;
+    }
+}
+
+.section-title{
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+    @media (min-width: 768px ) {
+        padding-top: 120px;
+        padding-bottom: 90px;
+    
+    }       
+
+    p {
+        color: #F94D1C;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #191919;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 45px;
     }
 }
 
@@ -116,18 +199,6 @@ header {
 
                     .contact-last {
                             border: none;
-                    }
-                }
-
-                .social-media {
-                    a {
-                        color: #191919;
-                        font-size: 1.3rem;
-                        margin-left: 10px;
-
-                        &:hover {
-                            color: #d3a6a6;
-                        }
                     }
                 }
             }
@@ -235,6 +306,284 @@ header {
             margin-right: -50px;
 
             @media (min-width: 1200px) {
+                display: block;
+            }
+        }
+    }
+}
+
+.project-a-case {
+
+    .container {
+
+        .section-title {
+            text-align: center;
+        }
+
+        .project-a-cases {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+
+            @media (min-width: 768px) {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .project {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr auto;
+                color: #191919;
+                text-decoration: none;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding-top: 35px;
+                    padding-bottom: 16px;
+                    border-bottom: 1px solid #DAD9D3;
+                }
+
+                .readmore {
+                    padding: 15px;
+                    display: block;
+                    text-align: right;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #191919;
+
+                    i {
+                        margin-left: 3px;
+                    }
+
+                    &:hover .readmore {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .center-content {
+            margin-top: 50px;
+            margin-top: 50px;
+        }
+    }
+}
+
+.member-main {
+    background-color:#F9D783;
+    height: 1964px;
+
+    .container {
+
+        p {
+            padding-top: 70px;
+            color: #F94D1C;
+            font-size: 18px;
+        }
+
+        .member-header {
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                font-family: 'DM sans', sans-serif;
+                font-size: 45px;
+                font-weight: 700;
+            }
+
+            a {
+                border: 1px solid #191919;
+                width: 221px;
+                height: 56px;
+                text-align: center;
+            }
+        }
+
+        .members-img {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+ 
+            img {
+                width: 308px;
+                height: 420px;
+            }
+
+            h5 {
+                padding-top: 30px;
+                font-size: 22px;
+                font-weight: 700;
+                font-family: 'DM sans', sans-serif;
+            }
+
+            p {
+                padding-top: 0px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #191919;
+            }
+        }
+
+        .dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+        }
+    }
+
+    .Testimonial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Client-comment {
+            background-color: white;
+            width: 1520px;
+            height: 887px;
+
+            .Testimonial-header{
+                text-align: center;
+                padding-top: 100px;
+
+                p{
+                    color: #F94D1C;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #0E1021;
+    
+    .footer-main {
+        border-bottom: #696969 solid 0.1px;
+        
+        .whiteline-logo {
+            position: relative;
+            left: 1590px;
+            top: 513px;
+
+        }
+    
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            height: 513px;
+    
+            .footer-left-logo {
+                width: 309px;
+    
+                p {
+                    margin-top: 40px;
+                    color: #F0EFE9;
+                }
+            }
+
+            .footer-links {
+                height: 213px;
+                font-family: 'DM sans', sans-serif;
+            
+                h5 {
+                    color: #F0EFE9;
+                    margin-bottom: 30px;
+                }
+
+                a {
+                    color: #F0EFE9;
+                    text-decoration: none;
+                }
+
+                .footer-link {
+                  padding-top: 10px;  
+                }
+            }           
+        }
+    }
+
+    .lower-foot {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+
+        p {
+            color: #F0EFE9;
+        }
+    }
+}
+
+.header-grid {
+    background-color: #F0EFE9;
+    padding: 16px;
+
+    .container {
+        display: grid;
+        align-items: center;
+        column-gap: 70px;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:    "logo bars";
+
+        @media (min-width: 992px){
+            grid-template-columns: auto 1fr auto;
+            grid-template-areas:    "logo cib social"
+                                    "logo menu login";
+        }
+        
+        .btn-menubars {
+            grid-area: bars;
+            border: none;
+            font-size: 25px;
+            background-color: transparent;
+
+            @media (min-width: 992px){
+                display: none;
+            }
+        }
+                                    
+        .logotype {
+            grid-area: logo;
+            margin-right: 20px;
+        }
+        .contactinformation-bar {
+            grid-area: cib;
+            display: none;
+
+            @media (min-width: 992px){
+                display: block;
+            }
+        }
+        .socialmedia-bar {
+            grid-area: social;
+            display: none;
+
+            @media (min-width: 992px){
+                display: block;
+            }
+        }
+        .mainmenu {
+            grid-area: menu;
+            display: none;
+
+            @media (min-width: 992px){
+                display: block;
+            }
+        }
+        .login {
+            grid-area: login;
+            display: none;
+
+            @media (min-width: 992px){
                 display: block;
             }
         }
