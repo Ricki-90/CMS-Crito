@@ -334,63 +334,67 @@ html, body {
 }
 
 .feature-section {
+    padding: 50px 0;
 
-    .container {
-        display: flex;
-        padding-top: 80px;
+ .container {
+    .section-border {
+        margin: -50px -90px;
+        padding: 50px 80px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
 
-        .feature-header {
-            height: 303px;
-            width: 460px;
-
-            p {
-                color: #F94D1C;
-            }
-
-            h2 {
-                color: #191919;
-                font-family: 'DM Sans', sans-serif;
-                font-weight: 700;
-                font-size: 45px;
-                margin-bottom: 30px;
-            }
-
-            .btn-feature {
-                display: grid;
-                display: flex;
-                justify-content: center;
-            }
+        .section-title {
+            padding: 0;
+            padding-bottom: 20px;
         }
 
-        .feature-box-system {
-            display: flex;
-            margin-left: 150px;
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
 
-            .feature-box {
-                width: 307px;
-                height: 220px;
+            .feature-learnmore {
+                margin-right: 30%;
 
-                h4 {
-                    color: #191919;
-                    font-family: 'DM Sans', sans-serif;
+                .btn-yellow {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                h2 {
+                    font-size: 45px;
                     font-weight: 700;
-                    font-size: 22px;
-                    margin-bottom: 10px;
-                    padding-top: 20px;
+                    margin-bottom: 30px;
                 }
 
-                p {
-                    font-family: 'Inter', sans-serif;
-                    font-size: 16px;
-                }
-
-                i {
-                    font-size:x-large
+                a {
+                    display: flex;
                 }
             }
+
+            .feature-boxes {
+
+                .umb-block-list {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 50px;
     
+                    .feature-box {
+                        i {
+                            font-size: 25px;
+                            margin-bottom: 20px;
+                        }
+    
+                        h4 {
+                            font-size: 22px;
+                            font-weight: 700;
+                        }
+                    }
+
+                }
+            }
         }
     }
+ }
 
 
 }
