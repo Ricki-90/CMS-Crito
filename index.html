@@ -12,46 +12,47 @@
     
 <div class="wrapper-grid">
         <!-- Header_section -->
-        <header>
+        <section class="nav-section">
             <div class="container">
-                <a href="index.html"><img src="images/logotype.svg" alt="Crito Logotype"></a>
-                <button class="menu-bars"><i class=" fa-solid fa-bars-staggered"></i></button>
-                <div class="menu">
-                    <div class="top-menu">
-                        <div class="contact-info">
-                            <div class="contact-info-box">
-                                <i class="fa-regular fa-phone-volume"></i>
-                                +46 (8) 121 470 50
-                            </div>
-                            <div class="contact-info-box">
-                                <i class="fa-regular fa-envelope"></i>
-                                info@crito.com
-                            </div>
-                            <div class="contact-info-box contact-last">
-                                <i class="fa-regular fa-location-dot"></i>
-                                Sveavägen 31, 111 34 Stockholm
-                            </div>
-                        </div>
-                        <div class="social-media">
-                            <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        </div>
+                <button class="btn-menubars"><i class="fa-solid fa-bars-staggered"></i></button>
+                <div class="logotype">
+                    <a href="index.html">
+                    <img src="images/logotype.svg" alt="Crito Logotype">
+                    </a>
+                </div>
+                <div class="contactinformation-bar">
+                    <div class="contact-info-box">
+                        <i class="fa-regular fa-phone-volume"></i>
+                        +46 (8) 121 470 50
                     </div>
-                    <div class="link-menu">
-                        <nav class="links">
-                            <a class="active" href="index.html">Home</a>
-                            <a href="service.html">Service</a>
-                            <a href="news.html">News</a>
-                            <a href="contact.html">Contact</a>
-                        </nav>
-                        <a class="btn-yellow btn-login" href="login.html">Login <i class="fa-regular fa-arrow-up-right"></i></a>
+                    <div class="contact-info-box">
+                        <i class="fa-regular fa-envelope"></i>
+                        info@crito.com
+                    </div>
+                    <div class="contact-info-box contact-last">
+                        <i class="fa-regular fa-location-dot"></i>
+                        Sveavägen 31, 111 34 Stockholm
                     </div>
                 </div>
+                <div class="socialmedia-bar">
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <a class="active" href="index.html">Home</a>
+                        <a href="service.html">Service</a>
+                        <a href="news.html">News</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <a class="btn-yellow btn-login" href="login.html">Login <i class="fa-regular fa-arrow-up-right"></i></a>
+                </div>
             </div>
-        </header>
+        </section>
     
+        <!-- Main_section -->
         <main>
         <!-- Showcase_section -->
         <section class="showcase-main">
@@ -65,7 +66,54 @@
                 <img src="images/Showcase-image.svg" alt="Images of a man in black suit with tablet">
             </div>
         </section>
-    
+
+         <!-- Brands_section -->
+         <section class="Brands-main">
+            <div class="container">
+                <img src="/images/Brands/dorfus.svg" alt="">
+                <img src="/images/Brands/dorfus.svg" alt="">
+                <img src="/images/Brands/dorfus.svg" alt="">
+                <img src="/images/Brands/dorfus.svg" alt="">
+                <img src="/images/Brands/dorfus.svg" alt="">
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <div class="container">
+                <div class="feature-header">
+                    <p>Features</p>
+                    <h2>Our Accounting is trusted by thousand<br> of companies</h2>
+                    <a class="btn-yellow btn-feature" href="consulting.html">Learn More <i class="fa-regular fa-arrow-up-right"></i></a>
+                </div>
+                <div class="feature-box-system">
+                    <div>
+                        <div class="feature-box">
+                            <i class="fa-regular fa-handshake"></i>
+                            <h4>Business Advice</h4>
+                            <p>Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fa-regular fa-lightbulb"></i>
+                            <h4>Financial Advice</h4>
+                            <p>Lorem, ipsum dolor sit amet<br>consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feature-box">
+                            <i class="fa-regular fa-chart-column"></i>
+                            <h4>Startup Business</h4>
+                            <p>Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fa-regular fa-person-carry-box"></i>
+                            <h4>Risk Management</h4>
+                            <p>Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>      
+        
         <!-- Project & case studies section-->
         <section class="project-a-case">
             <div class="container">
@@ -98,13 +146,6 @@
                 <div class="center-content">
                     <a class="btn-black" href="projects.html">All Recent Projects <i class="fa-regular fa-arrow-up-right"></i></a>
                 </div>
-            </div>
-        </section>
-    
-        <!-- Brands_section -->
-        <section class="Brands-main">
-            <div class="container">
-                <img src="" alt="">
             </div>
         </section>
     
@@ -153,6 +194,15 @@
     
                 </div>
     
+            </div>
+        </section>
+
+        <section class="pagetitle-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <p>Home/service</p>
+                </div>
+                <h2>Contact us</h2>
             </div>
         </section>
         </main>

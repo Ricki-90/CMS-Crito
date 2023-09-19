@@ -1,0 +1,149 @@
+<header>
+    <div class="container">
+        <a href="index.html"><img src="images/logotype.svg" alt="Crito Logotype"></a>
+        <button class="menu-bars"><i class=" fa-solid fa-bars-staggered"></i></button>
+        <div class="menu">
+            <div class="top-menu">
+                <div class="contact-info">
+                    <div class="contact-info-box">
+                        <i class="fa-regular fa-phone-volume"></i>
+                        +46 (8) 121 470 50
+                    </div>
+                    <div class="contact-info-box">
+                        <i class="fa-regular fa-envelope"></i>
+                        info@crito.com
+                    </div>
+                    <div class="contact-info-box contact-last">
+                        <i class="fa-regular fa-location-dot"></i>
+                        Sveavägen 31, 111 34 Stockholm
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="link-menu">
+                <nav class="links">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="service.html">Service</a>
+                    <a href="news.html">News</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <a class="btn-yellow btn-login" href="login.html">Login <i class="fa-regular fa-arrow-up-right"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+header {
+    background-color: #F0EFE9;
+    padding: 16px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 70px;
+
+        .menu-bars {
+            border: none;
+            font-size: 25px;
+            background-color: transparent;
+
+            @media (min-width: 992px ) {
+                display: none;
+            }       
+        }
+
+        .menu {
+            display: none;
+            flex: 1;
+
+            @media (min-width: 992px ) {
+                display: block;
+            }
+            
+            .top-menu {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                border-bottom: 1px solid #DAD9D3;
+                padding-bottom: 10px;
+
+                @media (min-width: 1200px) {
+                    justify-content: space-between;
+                }
+
+                .contact-info {
+                    display: none;
+                    align-items: center;
+
+                    @media (min-width: 1200px) {
+                        display: flex;
+                    }
+
+                    .contact-info-box {
+                        margin-right: 30px;
+                        padding-right: 30px;
+                        border-right: 1px solid #DAD9D3;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 15px;
+                        font-weight: 300;
+
+                        i {
+                            margin-right: 5px;
+                            font-size: 1em;
+                            color: #666666;
+                        }
+                    }
+
+                    .contact-last {
+                            border: none;
+                    }
+                }
+            }
+
+            .link-menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 10px;
+
+                 .links {
+
+                    a {
+                        display: inline-block;
+                        color: #191919;
+                        text-decoration: none;
+                        margin-right: 35px;
+                        position: relative; 
+
+                        &.active {
+                            font-weight: 500;
+                        }
+                        
+                        &.active::after,
+                        &:hover::after {
+                            content: '';
+                            position: absolute;
+                            font-weight: 500;
+                            height: 2px;
+                            width: 15px;
+                            background-color: #191919;
+                            left: 50%;
+                            bottom: -3px;
+                        }   
+                    }
+                }
+
+                .btn-login {
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                }
+            }
+        }
+    }
+}
