@@ -642,6 +642,81 @@ html, body {
 .article-main-section .container .articles-post .articles:hover {
   border: 1px solid #F0EFE9;
 }
+.article-main-section .container .nav-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-main-section .container .nav-page .news-link {
+  height: 39px;
+  width: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #191919;
+}
+.article-main-section .container .nav-page .news-link:Hover {
+  background-color: #191919;
+  color: #FFFFFF;
+}
+
+.news-article-section {
+  margin-top: 50px;
+}
+.news-article-section .container {
+  display: flex;
+}
+.news-article-section .container .container-news {
+  width: 768px;
+  margin-bottom: 50px;
+}
+.news-article-section .container .container-news .newsdata {
+  width: 670px;
+}
+.news-article-section .container .container-news .newsdata h2 {
+  font-family: "DM Sans" sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.news-article-section .container .container-news .newsdata .news-details {
+  width: 506px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DM Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.news-article-section .container .container-news .article-for-news .content img {
+  height: 500px;
+  width: 758px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: 32px;
+}
+.news-article-section .container .container-news .article-for-news .content p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.news-article-section .container .container-news .article-for-news .content .text-news {
+  margin-bottom: 70px;
+}
+.news-article-section .container .container-news .article-for-news .content .tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 681px;
+}
+.news-article-section .container .searchfield {
+  margin-top: 55%;
+  margin-left: 120px;
+}
 
 footer {
   background-color: #0E1021;

@@ -751,8 +751,105 @@ html, body {
                }
             }
         }
+
+        .nav-page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .news-link {
+                height: 39px;
+                width: 39px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                text-decoration: none;
+                color: #191919;
+
+                &:Hover {
+                    background-color: #191919;
+                    color: #FFFFFF;
+                }
+            }
+
+        }           
     }
 
+}
+
+.news-article-section {
+    margin-top: 50px;
+
+    .container {
+        display: flex;
+
+        .container-news {
+            width: 768px;
+            margin-bottom: 50px;
+        
+
+            .newsdata {
+                width: 670px;
+
+                h2 {
+                    font-family: 'DM Sans' sans-serif;
+                    font-size: 45px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+
+                .news-details {
+                    width: 506px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-family: 'DM Sans' sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                    
+                }
+            }
+
+            .article-for-news {
+
+                .content {
+                    
+                    img {
+                        height: 500px;
+                        width: 758px;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                        margin-bottom: 32px;
+                    }
+
+                    p {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 32px;
+                    }
+
+                    .text-news {
+                        margin-bottom: 70px;
+                    }
+
+                    .tags {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 681px;
+                    }
+                }
+            }
+        }
+
+        .searchfield {
+            margin-top: 55%;
+            margin-left: 120px;
+        }
+    }
 }
 
 footer {
