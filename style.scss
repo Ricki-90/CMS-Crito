@@ -792,6 +792,11 @@ html, body {
             .newsdata {
                 width: 670px;
 
+                .fa-circle {
+                    color: #F9D783;
+                    font-size: 12px;
+                }
+
                 h2 {
                     font-family: 'DM Sans' sans-serif;
                     font-size: 45px;
@@ -816,12 +821,11 @@ html, body {
 
                 .content {
                     
-                    img {
+                    .img-article-news {
                         height: 500px;
                         width: 758px;
                         -o-object-fit: cover;
                         object-fit: cover;
-                        margin-bottom: 32px;
                     }
 
                     p {
@@ -829,10 +833,12 @@ html, body {
                         font-size: 16px;
                         font-weight: 400;
                         margin-bottom: 32px;
+                        margin-top: 40px;
                     }
 
                     .text-news {
-                        margin-bottom: 70px;
+                        margin-bottom: 30px;
+                        margin-top: 30px;
                     }
 
                     .tags {
@@ -840,6 +846,14 @@ html, body {
                         justify-content: space-between;
                         align-items: center;
                         width: 681px;
+
+                        span {
+                            color: #191919;
+                            background-color: #F3F3F3;
+                            padding: 10px 20px;
+                            border-radius: 25px;
+                            margin-right: 12px;
+                        }
                     }
                 }
             }

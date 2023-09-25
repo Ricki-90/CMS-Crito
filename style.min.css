@@ -675,6 +675,10 @@ html, body {
 .news-article-section .container .container-news .newsdata {
   width: 670px;
 }
+.news-article-section .container .container-news .newsdata .fa-circle {
+  color: #F9D783;
+  font-size: 12px;
+}
 .news-article-section .container .container-news .newsdata h2 {
   font-family: "DM Sans" sans-serif;
   font-size: 45px;
@@ -691,27 +695,35 @@ html, body {
   font-weight: 400;
   margin-bottom: 30px;
 }
-.news-article-section .container .container-news .article-for-news .content img {
+.news-article-section .container .container-news .article-for-news .content .img-article-news {
   height: 500px;
   width: 758px;
   -o-object-fit: cover;
   object-fit: cover;
-  margin-bottom: 32px;
 }
 .news-article-section .container .container-news .article-for-news .content p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 32px;
+  margin-top: 40px;
 }
 .news-article-section .container .container-news .article-for-news .content .text-news {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .news-article-section .container .container-news .article-for-news .content .tags {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 681px;
+}
+.news-article-section .container .container-news .article-for-news .content .tags span {
+  color: #191919;
+  background-color: #F3F3F3;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-right: 12px;
 }
 .news-article-section .container .searchfield {
   margin-top: 55%;
