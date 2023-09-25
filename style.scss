@@ -650,11 +650,29 @@ html, body {
         justify-content: center;
         align-items: center;
 
+        h2 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 56px;
+            font-weight: 700;
+        }
+
         .breadcrumb {
             margin-top: 50px;
             margin-bottom: 0px;
             padding-left: 25px;
             padding-top: 20px;
+            display: grid;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+
+            p {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 400;
+                color: #191919;
+            }
         }
     }
 }
@@ -862,6 +880,106 @@ html, body {
         .searchfield {
             margin-top: 55%;
             margin-left: 120px;
+        }
+    }
+}
+
+.contact-section {
+
+    .container {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 420px;
+            height: 206px;
+            gap: 20px;
+            border: 1px solid #F0EFE9;
+
+            .contact-circle {
+                padding-bottom: 50px;;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                background-color:#191919;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+
+                i {
+                    margin-top: 45px;
+                    color: #FFFFFF;
+                }
+            }
+
+            h6 {
+                font-family: 'DM Sans' sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+            p {
+                padding: 0px;
+                margin: 0px;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.contact-form {
+
+    .container {
+        height: 766px;
+        background-color: #F0EFE9;
+
+        .form-design {
+            padding-top: 100px;
+            display: grid;
+            justify-content:center;
+            align-items: center;
+
+            .contact-h3 {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 15px;
+
+                h3 {
+                    font-family: 'DM Sans' sans-serif;
+                    font-size: 45px;
+                    font-weight: 700;
+                    width: 441px;
+                }
+            }
+
+              form {
+                width: 1021px;
+                display: grid;
+                gap: 10px;
+
+                .btn-yellow {
+                    margin-top: 100px;
+                }
+
+                .form-style {
+                    border: none;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-left: 25px;
+                    border-radius: 20px;
+                }
+                
+            }
+
         }
     }
 }
