@@ -425,6 +425,9 @@ html, body {
   justify-content: center;
 }
 
+.project-a-case {
+  margin-bottom: 60px;
+}
 .project-a-case .container .section-title {
   text-align: center;
 }
@@ -534,16 +537,51 @@ html, body {
   justify-content: center;
   align-items: center;
 }
-.member-main .Testimonial .Client-comment {
+.member-main .Testimonial .container {
   background-color: white;
-  width: 1520px;
   height: 887px;
 }
-.member-main .Testimonial .Client-comment .Testimonial-header {
+.member-main .Testimonial .container .Testimonial-header {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
-.member-main .Testimonial .Client-comment .Testimonial-header p {
+.member-main .Testimonial .container .Testimonial-header p {
+  color: #F94D1C;
+}
+.member-main .Testimonial .container .Testimonial-header h2 {
+  font-family: "DM sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.member-main .Testimonial .container .rating-box {
+  width: 420px;
+  height: 402px;
+  margin-top: 10px;
+}
+.member-main .Testimonial .container .rating-box i {
+  margin-top: 10px;
+  color: #F94D1C;
+}
+.member-main .Testimonial .container .rating-box p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #191919;
+  text-align: left;
+  padding: 0px;
+}
+.member-main .Testimonial .container .rating-box img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.member-main .Testimonial .container .rating-box .text-box {
+  margin-left: 15px;
+}
+.member-main .Testimonial .container .rating-box .text-box h5 {
+  margin: 0px;
+}
+.member-main .Testimonial .container .rating-box .text-box p {
+  margin: 0px;
   color: #F94D1C;
 }
 

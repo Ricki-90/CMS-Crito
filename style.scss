@@ -491,6 +491,7 @@ html, body {
 }
 
 .project-a-case {
+    margin-bottom: 60px;
 
     .container {
 
@@ -623,17 +624,61 @@ html, body {
         justify-content: center;
         align-items: center;
 
-        .Client-comment {
+        .container {
             background-color: white;
-            width: 1520px;
             height: 887px;
 
             .Testimonial-header{
                 text-align: center;
-                padding-top: 100px;
+                padding-top: 50px;
 
                 p{
                     color: #F94D1C;
+                }
+
+                h2 {
+                    font-family: 'DM sans', sans-serif;
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+            }
+
+            .rating-box {
+
+                width: 420px;
+                height: 402px;
+                margin-top: 10px;
+
+                i {
+                    margin-top: 10px;
+                    color: #F94D1C;
+                }
+
+                p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #191919;
+                    text-align:left;
+                    padding: 0px;
+                }
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50px;
+                }
+
+                .text-box {
+                    margin-left: 15px;
+
+                    h5 {
+                        margin: 0px;
+                    }
+
+                    p {
+                        margin: 0px;
+                        color: #F94D1C;
+                    }
                 }
             }
         }
