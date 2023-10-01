@@ -360,6 +360,74 @@ html, body {
   font-weight: 700;
 }
 
+.founder-section {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.founder-section .container {
+  display: flex;
+  justify-content: space-between;
+  height: 615px;
+}
+.founder-section .container img {
+  height: 100%;
+  width: 533px;
+  margin-left: 50px;
+  position: relative;
+}
+.founder-section .container .founder-post {
+  width: 368px;
+  height: 180px;
+  background-color: #BEEBFF;
+  position: absolute;
+  top: 1960px;
+}
+.founder-section .container .founder-post h4 {
+  padding-top: 25px;
+  padding-left: 15px;
+  font-family: "DM Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.founder-section .container .founder-post h4 span {
+  font-family: "DM Sans" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F94D1C;
+}
+.founder-section .container .founder-post p {
+  padding-top: 25px;
+  padding-left: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.founder-section .container .founder-about {
+  width: 532px;
+}
+.founder-section .container .founder-about h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #F94D1C;
+}
+.founder-section .container .founder-about h2 {
+  font-family: "DM Sans" sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.founder-section .container .founder-about p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.founder-section .container .founder-about .founder-video {
+  margin-top: 250px;
+}
+.founder-section .container .founder-about .founder-video .intro-video {
+  margin-left: 30px;
+}
+
 .service-section {
   color: #191919;
   background-color: #F0EFE9;
@@ -880,7 +948,7 @@ html, body {
 }
 .news-update .container .signup-news {
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 130px;
 }
 .news-update .container .signup-news h2 {
@@ -896,10 +964,88 @@ html, body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.news-update .container .signup-news .btn-yellow {
+
+.singel-articles-news {
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.singel-articles-news .container .articles-news-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  margin-bottom: 10px;
+}
+.singel-articles-news .container .articles-news-headline h2 {
+  font-family: "DM Sans" sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.singel-articles-news .container .articles-news-headline p {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F94D1C;
+}
+.singel-articles-news .container .articles-post {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.singel-articles-news .container .articles-post .articles {
+  position: relative;
+  text-decoration: none;
+  color: #191919;
+  padding: 20px;
+}
+.singel-articles-news .container .articles-post .articles .post-date {
   position: absolute;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  left: 30px;
+  top: 30px;
+  background-color: #F0D082;
+  height: 64px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.singel-articles-news .container .articles-post .articles .post-date .day {
+  font-family: "DM Sans" sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.singel-articles-news .container .articles-post .articles .post-date .month {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.singel-articles-news .container .articles-post .articles img {
+  height: 230px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.singel-articles-news .container .articles-post .articles h6 {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.singel-articles-news .container .articles-post .articles h5 {
+  font-family: "DM Sans" sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.singel-articles-news .container .articles-post .articles p {
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.singel-articles-news .container .articles-post .articles:hover {
+  border: 1px solid #F0EFE9;
 }
 
 footer {
