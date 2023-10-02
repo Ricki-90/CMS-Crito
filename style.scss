@@ -475,9 +475,28 @@ html, body {
 
             .founder-video {
                 margin-top:250px;
+                height: 90px;
 
                 .intro-video {
                     margin-left: 30px;
+                    text-decoration: none;
+                    color: #191919;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                span {
+                    padding: 10px 16px;
+                    border-radius: 100%;
+                    border: 1px solid black;
+                    margin-right: 10px;
+                }
+
+                i {
+                    color: #191919;
+                    font-size: 10px;
+                    align-items: center;
                 }
             }
         }
@@ -563,6 +582,64 @@ html, body {
             padding: 50px 0;
             display: flex;
             justify-content: center;
+        }
+
+    }
+}
+
+.why-us-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    .container {
+        height: 630px;
+        display: flex;
+        justify-content: space-between;
+
+        .choose-us-box {
+            width: 447px;
+
+            h6 {
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color: #F94D1C;
+            }
+
+            h2 {
+                color: #191919;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 45px;
+            }
+
+            .four-choose-box {
+                margin-top: 50px;
+
+                h3 {
+                    color: #191919;
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+
+                p {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                i {
+                    font-size: 25px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+
+        img {
+            width: 630px;
+            height: 505px;
         }
 
     }
@@ -999,10 +1076,58 @@ html, body {
                 }
             }
         }
-
-        .searchfield {
-            margin-top: 55%;
+        .searchfield-box {
+            width: 420px;
             margin-left: 120px;
+
+            .searchfield {
+                margin-top: 55%;
+                margin-bottom: 40px;
+            }
+
+            .recent-posts {
+                height: 554px;
+                border: 1px solid #19191915;
+                margin-top: 25px;
+            }
+
+            .categories-style {
+                height: 326px;
+                border: 1px solid #19191915;
+                margin-top: 25px;
+            }
+
+            h4 {
+                font-family: 'DM Sans' sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                padding-top: 30px;
+                padding-bottom: 20px;
+                padding-left: 25px;
+            }
+
+            h5 {
+                font-family: 'DM Sans' sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                padding-left: 25px;
+                margin-top: 15px;
+            }
+
+            p {
+                font-family: 'Inter' sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                padding-left: 25px;
+            }
+
+            span {
+                font-family: 'DM Sans' sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                color:#DAD9D3;
+            }
+
         }
     }
 }
@@ -1127,7 +1252,7 @@ html, body {
         .signup-news {
             align-items: center;
             justify-content: space-between;
-            padding-top: 130px;
+            padding-top: 100px;
 
             h2 {
                 font-family: 'DM Sans' sans-serif;

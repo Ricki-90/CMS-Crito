@@ -423,9 +423,26 @@ html, body {
 }
 .founder-section .container .founder-about .founder-video {
   margin-top: 250px;
+  height: 90px;
 }
 .founder-section .container .founder-about .founder-video .intro-video {
   margin-left: 30px;
+  text-decoration: none;
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.founder-section .container .founder-about .founder-video span {
+  padding: 10px 16px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+.founder-section .container .founder-about .founder-video i {
+  color: #191919;
+  font-size: 10px;
+  align-items: center;
 }
 
 .service-section {
@@ -491,6 +508,53 @@ html, body {
   padding: 50px 0;
   display: flex;
   justify-content: center;
+}
+
+.why-us-section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.why-us-section .container {
+  height: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+.why-us-section .container .choose-us-box {
+  width: 447px;
+}
+.why-us-section .container .choose-us-box h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #F94D1C;
+}
+.why-us-section .container .choose-us-box h2 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.why-us-section .container .choose-us-box .four-choose-box {
+  margin-top: 50px;
+}
+.why-us-section .container .choose-us-box .four-choose-box h3 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.why-us-section .container .choose-us-box .four-choose-box p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.why-us-section .container .choose-us-box .four-choose-box i {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.why-us-section .container img {
+  width: 630px;
+  height: 505px;
 }
 
 .project-a-case {
@@ -847,9 +911,50 @@ html, body {
   border-radius: 25px;
   margin-right: 12px;
 }
-.news-article-section .container .searchfield {
-  margin-top: 55%;
+.news-article-section .container .searchfield-box {
+  width: 420px;
   margin-left: 120px;
+}
+.news-article-section .container .searchfield-box .searchfield {
+  margin-top: 55%;
+  margin-bottom: 40px;
+}
+.news-article-section .container .searchfield-box .recent-posts {
+  height: 554px;
+  border: 1px solid rgba(25, 25, 25, 0.0823529412);
+  margin-top: 25px;
+}
+.news-article-section .container .searchfield-box .categories-style {
+  height: 326px;
+  border: 1px solid rgba(25, 25, 25, 0.0823529412);
+  margin-top: 25px;
+}
+.news-article-section .container .searchfield-box h4 {
+  font-family: "DM Sans" sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.news-article-section .container .searchfield-box h5 {
+  font-family: "DM Sans" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.news-article-section .container .searchfield-box p {
+  font-family: "Inter" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+.news-article-section .container .searchfield-box span {
+  font-family: "DM Sans" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #DAD9D3;
 }
 
 .contact-section .container {
@@ -949,7 +1054,7 @@ html, body {
 .news-update .container .signup-news {
   align-items: center;
   justify-content: space-between;
-  padding-top: 130px;
+  padding-top: 100px;
 }
 .news-update .container .signup-news h2 {
   font-family: "DM Sans" sans-serif;
