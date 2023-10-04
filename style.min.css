@@ -300,6 +300,7 @@ html, body {
 
 .Brands-main {
   margin-bottom: 70px;
+  margin-top: 50px;
 }
 .Brands-main .container {
   display: flex;
@@ -361,6 +362,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   height: 615px;
+  position: relative;
 }
 .founder-section .container img {
   height: 100%;
@@ -368,12 +370,22 @@ html, body {
   margin-left: 50px;
   position: relative;
 }
+@media (max-width: 1200px) {
+  .founder-section .container img {
+    display: none;
+  }
+}
 .founder-section .container .founder-post {
   width: 368px;
   height: 180px;
   background-color: #BEEBFF;
   position: absolute;
-  top: 1990px;
+  top: 360px;
+}
+@media (max-width: 1200px) {
+  .founder-section .container .founder-post {
+    display: none;
+  }
 }
 .founder-section .container .founder-post h4 {
   padding-top: 25px;
@@ -563,6 +575,11 @@ html, body {
   width: 630px;
   height: 505px;
 }
+@media (max-width: 1200px) {
+  .why-us-section .container img {
+    display: none;
+  }
+}
 
 .project-a-case {
   margin-bottom: 60px;
@@ -631,6 +648,7 @@ html, body {
   padding-top: 70px;
   color: #F94D1C;
   font-size: 18px;
+  font-family: "Inter" sans-serif;
 }
 .member-main .container .member-header {
   display: flex;
@@ -657,8 +675,15 @@ html, body {
   height: 420px;
 }
 @media (max-width: 1350px) {
-  .member-main .container .members-img .img-right-4 {
-    display: none;
+  .member-main .container .members-img img {
+    width: 208px;
+    height: 320px;
+  }
+}
+@media (max-width: 995px) {
+  .member-main .container .members-img img {
+    width: 158px;
+    height: 280px;
   }
 }
 .member-main .container .members-img h5 {
@@ -935,6 +960,9 @@ html, body {
   margin-top: 55%;
   margin-bottom: 40px;
 }
+.news-article-section .container .searchfield-box .searchfield input {
+  border: none;
+}
 .news-article-section .container .searchfield-box .recent-posts {
   height: 554px;
   border: 1px solid rgba(25, 25, 25, 0.0823529412);
@@ -1066,18 +1094,29 @@ html, body {
 .news-update {
   background-color: #F0EFE9;
   height: 270px;
+  text-align: right;
 }
 .news-update .container .signup-news {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 100px;
+}
+@media (max-width: 1200px) {
+  .news-update .container .signup-news {
+    display: grid;
+  }
 }
 .news-update .container .signup-news h2 {
   font-family: "DM Sans" sans-serif;
   font-size: 45px;
   font-weight: 700;
 }
-.news-update .container .signup-news .style-input {
+.news-update .container .signup-news .signup-for-news {
+  display: flex;
+  align-items: center;
+}
+.news-update .container .signup-news .signup-for-news .style-input {
   border: none;
   padding-right: 50px;
   padding-left: 20px;
@@ -1106,6 +1145,11 @@ html, body {
   font-size: 16px;
   font-weight: 400;
   color: #F94D1C;
+}
+@media (max-width: 995px) {
+  .singel-articles-news .container .articles-news-headline .btn-transparent {
+    display: none;
+  }
 }
 .singel-articles-news .container .articles-post {
   display: grid;
@@ -1174,16 +1218,17 @@ footer {
 }
 footer .footer-main {
   border-bottom: #696969 solid 0.1px;
+  text-align: right;
 }
 footer .footer-main .whiteline-logo {
   position: relative;
-  left: 1590px;
   top: 300px;
 }
 footer .footer-main .container {
   display: flex;
   justify-content: space-between;
   height: 300px;
+  text-align: left;
 }
 footer .footer-main .container .footer-left-logo {
   width: 309px;
@@ -1199,10 +1244,16 @@ footer .footer-main .container .footer-links {
 footer .footer-main .container .footer-links h5 {
   color: #F0EFE9;
   margin-bottom: 30px;
+  font-family: "DM Sans" sans-serif;
+  font-size: 22px;
+  font-weight: 700;
 }
 footer .footer-main .container .footer-links a {
   color: #F0EFE9;
   text-decoration: none;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 footer .footer-main .container .footer-links .footer-link {
   padding-top: 10px;
